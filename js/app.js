@@ -38,7 +38,7 @@
   const card = (h, i) => `
     <article class="card" style="--i:${i}">
       <div class="media">
-        <img src="${h.img}" alt="${esc(h.name)}, ${esc(h.city)}" loading="lazy" width="800" height="533" onerror="this.remove()">
+        <img src="${h.img}" alt="${esc(h.name)}, ${esc(h.city)}" loading="lazy" decoding="async" width="800" height="533" onerror="this.remove()">
         <span class="pill">${h.flag} ${esc(h.city)}</span>
         <span class="chip-pay">Pay per review<b>$${h.pay}</b></span>
       </div>
@@ -47,7 +47,7 @@
           <h3>${esc(h.name)}</h3>
         </div>
         <p class="desc">${esc(h.desc)}</p>
-        <a class="btn btn-ink" href="https://mulaearn.com/register.php?ref=cheryl42" target="_blank" rel="noopener">Register to Review</a>
+        <a class="btn btn-ink" href="https://mulaearn.com/register.php?ref=sydney" target="_blank" rel="noopener">Register to Review</a>
       </div>
     </article>`;
  
@@ -167,6 +167,10 @@
   document.addEventListener("click", (e) => {
     if (!installTip.hidden && !e.target.closest("#installBtn, #installTip")) installTip.hidden = true;
   });
+
+  /* ---------- Floating buttons: fold captions away after a few seconds ---------- */
+  const fabStack = $("fabStack");
+  if (fabStack) setTimeout(() => fabStack.classList.add("compact"), 6000);
 
   /* ---------- Header shadow on scroll + footer year ---------- */
   const hd = document.querySelector(".header");

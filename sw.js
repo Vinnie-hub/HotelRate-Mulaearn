@@ -1,4 +1,4 @@
-const CACHE_NAME = "hotelrate-app-v7";
+const CACHE_NAME = "hotelrate-app-v11";
 
 const FILES_TO_CACHE = [
   "./",
@@ -9,7 +9,7 @@ const FILES_TO_CACHE = [
   "manifest.json",
   "assets/hotel%20review%20logo.webp",
   "assets/favicon-192.webp",
-  "assets/hotelrate-hero.webp",
+  "assets/hotelrate-hero-banner.webp",
   "assets/apple-touch-icon.png",
   "assets/icon-512.png",
 ];

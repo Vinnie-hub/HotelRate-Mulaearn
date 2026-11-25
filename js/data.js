@@ -61,7 +61,7 @@ const HOTELS = [
   },
   {
     name: "The Mariner",
-    city: "millionairemax, Australia",
+    city: "Sydney, Australia",
     flag: "🇦🇺",
     pay: 10.4,
     img: IMG(8),

@@ -1,13 +1,13 @@
 {
   "name": "HotelRate \u2013 Hotel Reviews",
   "short_name": "HotelRate",
-  "description": "Introduces you to Mulaearn, a platform that pays for approved hotel reviews.",
+  "description": "Introduces you to LipaHub, a platform that pays for approved hotel reviews.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#14213d",
+  "theme_color": "#0f4a3a",
   "icons": [
     {
       "src": "assets/favicon-192.webp",
