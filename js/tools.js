@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  var BASE = "https://hotelrate.vercel.app/";
+  var BASE = "https://hotelrate-site.vercel.app/";
   var STORE = "hotelrate-tools-username";
   var $ = function (s) { return document.querySelector(s); };
 
